@@ -4,6 +4,7 @@ individual scripts to partition mitochondrial genomes
 If you have a reference mitogenome (with annotations), then you just need to align all of the other mitogenomes to the reference. Then you can use bedtools to extract all of the genes (http://bedtools.readthedocs.io/en/latest/). 
 
 Here are the steps:
+
 a. Align all of the mitogenomes (including the reference mitogenome - e.g. accession U96639.2) and save the alignment in FASTA format. 
 
 b. Separate the sequences into individual files, so that each file has a single sequence name and sequence. 
