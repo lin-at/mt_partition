@@ -23,6 +23,9 @@ Once you have all of the separate fasta and corresponding bed files, you use thi
 
 Once you have an alignment with all of the full CDS sequences only (shown in the bottom example as full_CDS.fasta), you use this python script that can extract the sequences based on 1st, 2nd, or 3rd codon position. The command is like this: 
 > python codonextract.py full_CDS.fasta > codon_pos_1_2_or_3.fasta 
-You need to edit the python file directly in a text editor to change the number in which_codon. which_codon = 0  is the 1st codon, which_codon = 2 is the 2nd codon, which_codon = 3 is the 3rd codon.
+> 
+You need to edit the python file directly in a text editor to change the number in which_codon. 
+
+which_codon = 0  is the 1st codon, which_codon = 2 is the 2nd codon, which_codon = 3 is the 3rd codon.
 
 Should you have any questions, please contact Audrey T. Lin (linat@si.edu)
