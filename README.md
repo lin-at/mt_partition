@@ -5,8 +5,11 @@ If you have a reference mitogenome (with annotations), then you just need to ali
 
 Here are the steps:
 a. Align all of the mitogenomes (including the reference mitogenome - e.g. accession U96639.2) and save the alignment in FASTA format. 
+
 b. Separate the sequences into individual files, so that each file has a single sequence name and sequence. 
+
 c. For each mitogenome, prepare a “bed” file that contains the locations of all of the genes in the mitogenome. 
+
 d. Run bedtools to extract all of the genes to a new file. The command is like this:
 > fastaFromBed -fi xxx.fasta -bed xxx.bed -fo xxx.genes.fasta -s -name
 
