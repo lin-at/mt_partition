@@ -1,6 +1,6 @@
-
+### <--  contact Audrey T. Lin (linat@si.edu) --> ###
 ### <--  README.MD found at https://github.com/lin-at --> ###
-### <--  with thanks to https://github.com/laduplessis --> ###
+### <--  with thanks to Louis du Plessis https://github.com/laduplessis --> ###
 
 
 
