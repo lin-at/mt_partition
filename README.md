@@ -21,7 +21,7 @@ where xxx is the name of the sequence in this particular example. In the bed fil
 All the mitogenomes will need its own bed file. But if all the mitogenomes are aligned, then the gene positions should be the same – so you’ll only need to change the name in column 1. 
 
 Once you have all of the separate fasta and corresponding bed files, you use this python script that can extract the partitions in the fasta files depending on the patterntype (tRNA, rRNA, CDS etc) you specify. The command is like this: 
-> python extract_partition_in_fasta.py -i partitions -o partitions/out/tRNA.fasta -s tRNA
+> python extract_partition_in_fasta.py -i partitions -o tRNA.fasta -s tRNA
 
 Once you have an alignment with all of the full CDS sequences only (shown in the bottom example as full_CDS.fasta), you use this python script that can extract the sequences based on 1st, 2nd, or 3rd codon position. The command is like this: 
 > python codonextract.py full_CDS.fasta > codon_pos_1_2_or_3.fasta 
