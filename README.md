@@ -1,5 +1,7 @@
 # mt_partition
-individual scripts to partition mitochondrial genomes
+individual scripts to partition mitochondrial genomes. 
+
+You need installed on your system: python, bedtools
 
 If you have a reference mitogenome (with annotations), then you just need to align all of the other mitogenomes to the reference. Then you can use bedtools to extract all of the genes (http://bedtools.readthedocs.io/en/latest/). 
 
